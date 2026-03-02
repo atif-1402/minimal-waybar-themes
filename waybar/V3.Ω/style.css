@@ -1,0 +1,134 @@
+@import "../omarchy/current/theme/waybar.css";
+
+/* ===================================================== */
+/* GLOBAL                                                */
+/* ===================================================== */
+
+* {
+  background-color: alpha(@background, 0.9);
+  color: @foreground;
+
+  border: none;
+  border-radius: 0;
+  border: 0px solid alpha(@foreground, 0.6);
+
+  min-height: 0;
+
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+
+/* ===================================================== */
+/* LAYOUT SPACING                                        */
+/* ===================================================== */
+
+.modules-left {
+  margin-left: 8px;
+}
+
+.modules-right {
+  margin-right: 8px;
+}
+
+
+/* ===================================================== */
+/* RIGHT SIDE CORE MODULES                               */
+/* ===================================================== */
+
+#tray {
+  margin-right: 4px;
+}
+
+#pulseaudio {
+  margin-left: 1px;
+  margin-right: 4px;
+}
+
+#clock {
+  margin-left: -10px;
+}
+
+
+/* ===================================================== */
+/* SYSTEM MODULES                                        */
+/* ===================================================== */
+
+#battery,
+#cpu,
+#idle_inhibitor,
+#custom-update,
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#network {
+  margin-left: 3px;
+  margin-right: 10px;
+}
+
+#bluetooth {
+  margin-right: 6px;
+}
+
+#power-profiles-daemon {
+  margin-left: 4px;
+  margin-right: 3px;
+}
+
+
+/* ===================================================== */
+/* CUSTOM MODULES                                        */
+/* ===================================================== */
+
+#custom-metastats {
+  min-width: 0px;
+  transition: opacity 0.15s ease;
+}
+
+#custom-omarchy {
+  margin-right: 8px;
+}
+
+#custom-update {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 10px;
+}
+
+#custom-expand-icon {
+  margin-right: 10px;
+}
+
+
+/* ===================================================== */
+/* INDICATORS                                            */
+/* ===================================================== */
+
+#custom-idle-indicator,
+#custom-notification-silencing-indicator {
+  margin-right: 2px;
+  min-width: 15px;
+}
+
+#custom-screenrecording-indicator {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+
+/* ===================================================== */
+/* GROUPS                                                */
+/* ===================================================== */
+
+#group-ctl,
+#group_ctl,
+#ctl {
+  margin-right: 6px;
+}
