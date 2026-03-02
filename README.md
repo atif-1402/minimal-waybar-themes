@@ -117,6 +117,7 @@ This the V1.5 version of my waybar done somework on it and added more things
    - Custom Workspaces script use for workspaces module
    - all icon related modules in the misc-expander module
    - Base of V3 highly tweaked and customized
+   - No tooltip to make minimal (actually script messing up with tooltip)
 
 ---
 
