@@ -86,7 +86,7 @@ This the V1.5 version of my waybar done somework on it and added more things
 
 ---
 
-### V2.4
+### V2.8
 <img width="1366" height="183" alt="image" src="https://github.com/user-attachments/assets/2a89ca6b-9b9e-4827-9f16-f7407db556cc" />
 <img width="1366" height="182" alt="image" src="https://github.com/user-attachments/assets/a783b945-22ee-4f53-9a9f-762adfff4951" />
 
