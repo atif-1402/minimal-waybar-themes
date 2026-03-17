@@ -164,6 +164,25 @@ This the V1.5 version of my waybar done somework on it and added more things
 
 ---
 
+## V4.y
+<img width="1366" height="194" alt="image" src="https://github.com/user-attachments/assets/0ef14ce1-b8f4-4a6a-a0c1-0c8a27101b2a" />
+
+### What's New
+   - New Bar Style For V4
+   - Base of V4.x
+   - Added Switch Mode module to switch between Dock and Bar style
+![screenrecording-2026-03-17_23-08-44](https://github.com/user-attachments/assets/b942d22e-9c59-4a42-9278-91519d02b66f)
+   - Cons are still same (working on it)
+
+### Cons
+   - <b>Only if you use light theme</b> you need to manually change the color for $esc_bottom in window.sh 
+     ```bash
+           text="<span size='7500' foreground='#a6adc8' rise='-2000'>$esc_top</span>
+     <span size='9000' weight='bold' foreground='#ffffff'>$esc_bottom</span>"
+      ```
+
+---
+
 ## V5
 <img width="1366" height="188" alt="image" src="https://github.com/user-attachments/assets/bead663a-aa9f-4499-bf99-852639def878" />
 <img width="1366" height="179" alt="image" src="https://github.com/user-attachments/assets/1e5c7a18-93af-4ae4-8a4e-8f47a7f00e1b" />
