@@ -3,11 +3,7 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  "height": 35,
-  "border-radius": 25,
-  "margin-right": 10,
-  "margin-left": 10,
-  "margin-top": 2,
+  "height": 3,
   "modules-left": ["custom/omarchy", "custom/active_window", ],
   "modules-center": [ "group/center3", "hyprland/workspaces", "group/center2" ],
   "modules-right": [
