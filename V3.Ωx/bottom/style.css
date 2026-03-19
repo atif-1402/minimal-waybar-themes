@@ -1,0 +1,38 @@
+@import "../omarchy/current/theme/waybar.css";
+
+/* ===================================================== */
+/* GLOBAL                                                */
+/* ===================================================== */
+
+* {
+  background-color: alpha(@background, 0.9);
+  color: @foreground;
+
+  border: none;
+  border-radius: 0;
+  border: 0px solid alpha(@foreground, 0.6);
+
+  min-height: 0;
+
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+
+/* ===================================================== */
+/* LAYOUT SPACING                                        */
+/* ===================================================== */
+
+.modules-left {
+  margin-left: 8px;
+}
+
+.modules-right {
+  margin-right: 8px;
+}
+
+#custom-cava {
+    font-size: 12px;
+    color: #cdd6f4;
+    padding: 0 8px;
+}

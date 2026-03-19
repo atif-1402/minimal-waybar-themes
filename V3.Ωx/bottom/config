@@ -1,0 +1,74 @@
+{
+  // ======================================================
+  // BAR SETTINGS
+  // ======================================================
+
+  "reload_style_on_change": true,
+  "layer": "bottom",
+  "position": "bottom",
+  "spacing": 0,
+  "height": 26,
+
+  // ======================================================
+  // MODULE PLACEMENT
+  // ======================================================
+
+  "modules-left": [
+    "custom/window"
+  ],
+
+  "modules-center": [],
+
+  "modules-right": [
+    "custom/cava",
+    "custom/sysbar",
+    "custom/theme"
+  ],
+
+  // ======================================================
+  // MODULES
+  // ======================================================
+
+  "custom/window": {
+      "exec": "~/.config/waybar/window.sh",
+      "interval": 1,
+      "return-type": "json",
+      "markup": "none"
+  },
+
+  "custom/theme": {
+    "exec": "~/.config/waybar/theme.sh",
+    "interval": 2,
+    "return-type": "json"
+  },
+
+  "custom/sysbar": {
+    "exec": "~/.config/waybar/sysbar.sh",
+    "interval": 1,
+    "on-scroll-up": "~/.config/waybar/sysbar.sh up",
+    "on-scroll-down": "~/.config/waybar/sysbar.sh down",
+    "return-type": "json"
+  },
+
+  "custom/cava": {
+      "exec": "~/.config/waybar/cava.sh",
+      "return-type": "json",
+      "restart-interval": 5
+  },
+
+  "custom/sep": {
+    "format": "︱"
+  },
+
+  "custom/bracr": {
+    "format": "]"
+  },
+
+  "custom/bracl": {
+    "format": "["
+  },
+
+  "custom/arrow": {
+    "format": ""
+  }
+}
