@@ -141,7 +141,7 @@ This the V1.5 version of my waybar done somework on it and added more things
    - New Additional Bottom Bar with more module (can be turned on/off by [BTMBAR] module)
    - Added cava.sh, window.sh, sysbar.sh and theme.sh custom scripts module
    - The mem/cpu/swap bar are changable when scrolled (in btmbar) 
-   - Added a scrollable stats module <b>⊹ (Scroll on Stats Module to switch the Stats) ⊹</b>
+   - A scrollable stats module <b>⊹ (Scroll on Stats Module to switch the Stats) ⊹</b>
    - Changed the Workspaces module 
    - all icon related modules in the misc-expander module
    - Base of V3.Ω highly tweaked and customized
