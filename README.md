@@ -1,4 +1,13 @@
-## Minimal Waybar Themes 
+<h1 align="center"> Minimal Waybar Themes </h1> 
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/atif-1402/minimal-waybar-themes?style=for-the-badge&label=Stars&color=d3c6a9)](https://github.com/atif-1402/minimal-waybar-themes)
+[![Forks](https://img.shields.io/github/forks/atif-1402/minimal-waybar-themes?style=for-the-badge&label=Forks&color=b7a98f)](https://github.com/atif-1402/minimal-waybar-themes/network)
+[![Issues](https://img.shields.io/github/issues/atif-1402/minimal-waybar-themes?style=for-the-badge&label=Issues&color=9f9278)](https://github.com/atif-1402/minimal-waybar-themes/issues)
+[![Support](https://img.shields.io/badge/Support-Ko--fi-857a63?style=for-the-badge)](https://ko-fi.com/anom538)
+
+</div>
 
 ## Compatibility
 - These configs are Omarchy-based, including optional Omarchy-specific modules (logo, screen recorder, update module).
@@ -11,6 +20,8 @@ curl -fsSL https://raw.githubusercontent.com/atif-1402/minimal-waybar-themes/mai
 ```
 #### Backup of your current waybar created in ~/.config/waybar.bak.(timestamps) folder automatically via install.sh
 #### Script become executable automatically no need to hunt chmod +x damn.sh
+---
+
 ---
 
 ## V1
